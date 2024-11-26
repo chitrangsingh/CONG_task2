@@ -1,0 +1,36 @@
+.cont{
+    height: 45vh;
+    width: 80%;
+    border: 1px solid black;
+    background-color: #FEAFA3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.inp:hover{
+    outline: rgba(36, 36, 36, 0.765);
+    cursor: pointer;
+    background-color: #232323e4;
+    color: aliceblue;
+}
+.inp{
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 15px;
+}
+.top-left{
+    border-top-left-radius: 40px;
+}
+.top-right{
+    border-top-right-radius: 40px;
+}
+.bottom-left{
+    border-bottom-left-radius: 40px;
+}
+.bottom-right{
+    border-bottom-right-radius: 40px;
+}
